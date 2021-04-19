@@ -1,3 +1,15 @@
+# Deployment steps:
+## Core:
+- UniswapV2Factory.sol
+- Token1.sol
+- Token2.sol
+## Periphery:
+- WETH.sol
+- UniswapV2Router02.sol
+
+## Migrator:
+- BonusToken.sol
+- LiquidityMigrator.sol
 # Core:
 
 ```bash
@@ -70,3 +82,5 @@ Summary
 > Final cost:          0.12490256 ETH
 
 ```
+
+# Periphery:
