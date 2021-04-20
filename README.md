@@ -1,16 +1,18 @@
 # Deployment steps:
-## Core:
+## Step 1: Core:
 - UniswapV2Factory.sol
 - Token1.sol
 - Token2.sol
-## Periphery:
+## Step 2: Periphery:
 - WETH.sol
 - UniswapV2Router02.sol
 
-## Migrator:
+## Step 3: Migrator:
 - BonusToken.sol
 - LiquidityMigrator.sol
+
 # Core:
+Deploy and copy the contract address of UniswapV2Factory.sol. The example below has a contract address of UniswapV2Factory: 0xD7E0141A9757Cf48b0DFa70588201C6Ed93ae475.
 
 ```bash
 $ cd core

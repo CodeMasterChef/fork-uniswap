@@ -21,26 +21,26 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/macos/Code/CodeForFun/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":\"IUniswapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/macos/Code/CodeForFun/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":{\"keccak256\":\"0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589\",\"urls\":[\"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6\",\"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":\"IUniswapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol\":{\"keccak256\":\"0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589\",\"urls\":[\"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6\",\"dweb:/ipfs/QmTutAVpjg925m4JLqHTvukdTyoTr77FotAUAA2AzGug1f\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface IUniswapV1Factory {\n    function getExchange(address) external view returns (address);\n}\n",
-  "sourcePath": "/Users/macos/Code/CodeForFun/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+  "sourcePath": "/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
   "ast": {
-    "absolutePath": "/Users/macos/Code/CodeForFun/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+    "absolutePath": "/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
     "exportedSymbols": {
       "IUniswapV1Factory": [
-        5814
+        5341
       ]
     },
-    "id": 5815,
+    "id": 5342,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5806,
+        "id": 5333,
         "literals": [
           "solidity",
           ">=",
@@ -57,9 +57,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 5814,
+        "id": 5341,
         "linearizedBaseContracts": [
-          5814
+          5341
         ],
         "name": "IUniswapV1Factory",
         "nodeType": "ContractDefinition",
@@ -68,7 +68,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "06f2bf62",
-            "id": 5813,
+            "id": 5340,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -76,17 +76,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 5809,
+              "id": 5336,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5808,
+                  "id": 5335,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5813,
+                  "scope": 5340,
                   "src": "81:7:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -95,7 +95,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5807,
+                    "id": 5334,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "81:7:16",
@@ -112,17 +112,17 @@
               "src": "80:9:16"
             },
             "returnParameters": {
-              "id": 5812,
+              "id": 5339,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5811,
+                  "id": 5338,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 5813,
+                  "scope": 5340,
                   "src": "113:7:16",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -131,7 +131,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5810,
+                    "id": 5337,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "113:7:16",
@@ -147,14 +147,14 @@
               ],
               "src": "112:9:16"
             },
-            "scope": 5814,
+            "scope": 5341,
             "src": "60:62:16",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 5815,
+        "scope": 5342,
         "src": "26:98:16"
       }
     ],
@@ -162,10 +162,10 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/macos/Code/CodeForFun/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
+      "absolutePath": "/Users/loya/Code/fork-uniswap/periphery/contracts/interfaces/V1/IUniswapV1Factory.sol",
       "exportedSymbols": {
         "IUniswapV1Factory": [
-          5814
+          5341
         ]
       }
     },
@@ -179,7 +179,7 @@
             ".0"
           ]
         },
-        "id": 5806,
+        "id": 5333,
         "name": "PragmaDirective",
         "src": "0:24:16"
       },
@@ -196,10 +196,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            5814
+            5341
           ],
           "name": "IUniswapV1Factory",
-          "scope": 5815
+          "scope": 5342
         },
         "children": [
           {
@@ -215,7 +215,7 @@
               ],
               "name": "getExchange",
               "overrides": null,
-              "scope": 5814,
+              "scope": 5341,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -229,7 +229,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 5813,
+                      "scope": 5340,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -243,17 +243,17 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 5807,
+                        "id": 5334,
                         "name": "ElementaryTypeName",
                         "src": "81:7:16"
                       }
                     ],
-                    "id": 5808,
+                    "id": 5335,
                     "name": "VariableDeclaration",
                     "src": "81:7:16"
                   }
                 ],
-                "id": 5809,
+                "id": 5336,
                 "name": "ParameterList",
                 "src": "80:9:16"
               },
@@ -265,7 +265,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 5813,
+                      "scope": 5340,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -279,32 +279,32 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 5810,
+                        "id": 5337,
                         "name": "ElementaryTypeName",
                         "src": "113:7:16"
                       }
                     ],
-                    "id": 5811,
+                    "id": 5338,
                     "name": "VariableDeclaration",
                     "src": "113:7:16"
                   }
                 ],
-                "id": 5812,
+                "id": 5339,
                 "name": "ParameterList",
                 "src": "112:9:16"
               }
             ],
-            "id": 5813,
+            "id": 5340,
             "name": "FunctionDefinition",
             "src": "60:62:16"
           }
         ],
-        "id": 5814,
+        "id": 5341,
         "name": "ContractDefinition",
         "src": "26:98:16"
       }
     ],
-    "id": 5815,
+    "id": 5342,
     "name": "SourceUnit",
     "src": "0:125:16"
   },
@@ -314,7 +314,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-04T08:21:21.886Z",
+  "updatedAt": "2021-04-20T04:45:45.532Z",
   "devdoc": {
     "methods": {}
   },
